@@ -10,7 +10,7 @@ header {
     background-color: #0077B6;
     color: #FFFFFF;
     text-align: center;
-    padding: 10px;
+    padding: 20px; /* Adjust padding to control header size */
 }
 
 main {
@@ -29,6 +29,7 @@ footer {
 @media screen and (max-width: 1024px) {
     header {
         font-size: 24px;
+        padding: 10px;
     }
 
     main {
@@ -44,11 +45,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0077B6; /* Title bar background color */
-    color: #FFFFFF; /* Title bar text color */
+    background-color: #0077B6;
+    color: #FFFFFF;
     padding: 10px;
 }
 
-#title-bar h1 {
-    font-size: 24px; /* Adjust the font size as needed */
+#title-bar img {
+    max-width: 60%; /* Adjust the maximum width as needed */
+    max-height: 100px; /* Adjust the maximum height as needed */
 }
