@@ -29,24 +29,6 @@ footer {
     width: 100vw;
 }
 
-/* Adjust the logo size and position */
-#title-bar img {
-    max-width: 100px; /* Set the maximum width for the logo */
-    max-height: 100px; /* Set the maximum height for the logo */
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    z-index: -1; /* Place the logo behind other elements */
-}
-
-/* Add shadow to the title */
-#title-bar h1 {
-    font-size: 20px;
-    text-shadow: 2px 2px 4px #000;
-    position: relative;
-}
-
 /* Add a new CSS rule for the dropdown */
 .dropdown {
     position: relative;
@@ -85,4 +67,22 @@ footer {
 /* Show the dropdown content when the button is clicked */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+/* Adjust the logo size and position */
+#title-bar img {
+    max-width: 100px; /* Set the maximum width for the logo */
+    max-height: 100px; /* Set the maximum height for the logo */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Place the logo behind other elements */
+}
+
+/* Add shadow to the title */
+#title-bar h1 {
+    font-size: 20px;
+    text-shadow: 2px 2px 4px #000;
+    position: relative;
 }
