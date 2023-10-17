@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #D2B48C; /* Earthy color */
+    background-color: #8B4513; /* Brown background color */
     color: #FFFFFF;
     text-align: center;
     padding: 10px;
@@ -20,7 +20,7 @@ main {
 }
 
 footer {
-    background-color: #D2B48C; /* Earthy color */
+    background-color: #8B4513; /* Brown background color */
     color: #FFFFFF;
     text-align: center;
     padding: 10px;
@@ -48,7 +48,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #D2B48C; /* Earthy color */
+    background-color: #8B4513; /* Brown background color */
     color: #FFFFFF;
     padding: 10px;
     width: 100vw; /* Snap to full viewport width */
