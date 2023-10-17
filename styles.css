@@ -1,72 +1,9 @@
-/* Global Styles */
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    max-width: 100%;
-    background-color: #464646; /* Set the background color to gray */
-}
-
-header {
-    background-color: #8B4513;
-    color: #D2B48C;
-    text-align: center;
-    padding: 10px;
-    width: 100vw;
-    margin: 0 auto;
-}
-
-main {
-    margin: 20px;
-}
-
-footer {
-    background-color: #8B4513;
-    color: #D2B48C;
-    text-align: center;
-    padding: 10px;
-    width: 100vw;
-}
-
-/* Add a new CSS rule for the dropdown */
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropbtn {
-    background-color: #D2B48C;
-    color: #8B4513;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown-content {
-    display: none;
+/* Add a new CSS rule for the dropdown button */
+#menu-button {
     position: absolute;
-    background-color: #8B4513;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: #D2B48C;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-}
-
-/* Update the hover effect for the dropdown content */
-.dropdown-content a:hover {
-    background-color: #D2B48C;
-    color: #8B4513;
-}
-
-/* Show the dropdown content when the button is clicked */
-.dropdown:hover .dropdown-content {
-    display: block;
+    left: 0;
+    top: 0;
+    z-index: 1; /* Set a higher z-index to bring the button to the front */
 }
 
 /* Adjust the logo size and position */
@@ -77,7 +14,7 @@ footer {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    z-index: -1; /* Place the logo behind other elements */
+    z-index: 0; /* Place the logo behind the title */
 }
 
 /* Add shadow to the title */
