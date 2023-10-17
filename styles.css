@@ -60,13 +60,13 @@ footer {
         text-shadow: 2px 2px 4px #000;
         position: relative;
     }
-}
 
-/* Add a CSS rule to style the menu button */
-#menu-button {
-    width: 30px;
-    height: 3px;
-    background-color: #D2B48C;
-    margin: 5px 0;
-    cursor: pointer;
+    /* Updated CSS rule to style the menu button as three lines */
+    #menu-button {
+        width: 30px;
+        height: 3px;
+        background-color: #D2B48C;
+        margin: 5px 0;
+        cursor: pointer;
+    }
 }
