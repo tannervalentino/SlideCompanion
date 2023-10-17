@@ -4,6 +4,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    max-width: 100%; /* Restrict the maximum width of the content to the viewport width */
 }
 
 header {
@@ -28,41 +29,3 @@ footer {
 }
 
 /* Add a new CSS rule to snap the window to the Slide Over tab width */
-@media screen and (max-width: 1024px) {
-    body {
-        width: 100vw; /* Snap the window to the Slide Over tab width */
-        overflow: hidden; /* Hide horizontal scrollbar */
-    }
-
-    #title-bar img {
-        width: auto; /* Allow the logo to resize with the window */
-        max-width: 60%; /* Limit the logo size */
-        max-height: 100px;
-    }
-}
-
-/* Responsive Styles for Slide Over on iPad */
-
-@media screen and (max-width: 1024px) {
-    header {
-        font-size: 20px;
-        padding: 10px;
-    }
-
-    main {
-        margin: 10px;
-    }
-
-    footer {
-        font-size: 14px;
-    }
-}
-
-#title-bar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #8B4513; /* Brown background color */
-    color: #D2B48C; /* Text color (corresponding with the earth theme) */
-    padding: 10px;
-}
