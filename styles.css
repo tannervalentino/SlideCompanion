@@ -4,16 +4,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    max-width: 100%; /* Restrict the maximum width of the content to the viewport width */
+    max-width: 100%;
 }
 
 header {
-    background-color: #8B4513; /* Brown background color */
-    color: #D2B48C; /* Text color (corresponding with the earth theme) */
+    background-color: #8B4513;
+    color: #D2B48C;
     text-align: center;
     padding: 10px;
-    width: 100vw; /* Snap to full viewport width */
-    margin: 0 auto; /* Center the blue box horizontally */
+    width: 100vw;
+    margin: 0 auto;
 }
 
 main {
@@ -21,44 +21,51 @@ main {
 }
 
 footer {
-    background-color: #8B4513; /* Brown background color */
-    color: #D2B48C; /* Text color (corresponding with the earth theme) */
+    background-color: #8B4513;
+    color: #D2B48C;
     text-align: center;
     padding: 10px;
-    width: 100vw; /* Snap to full viewport width */
+    width: 100vw;
 }
 
 /* Add a new CSS rule to snap the window to the Slide Over tab width */
 @media screen and (max-width: 1024px) {
     body {
-        width: 100vw; /* Snap the window to the Slide Over tab width */
-        overflow: hidden; /* Hide horizontal scrollbar */
+        width: 100vw;
+        overflow: hidden;
     }
 
     #title-bar {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #8B4513; /* Brown background color */
-        color: #D2B48C; /* Text color (corresponding with the earth theme) */
+        background-color: #8B4513;
+        color: #D2B48C;
         padding: 10px;
-        position: relative; /* Position the title and logo relative to the container */
+        position: relative;
     }
 
     #title-bar img {
-        width: 100px; /* Set a fixed width for the logo */
-        max-height: 100px; /* Set a fixed height to maintain aspect ratio */
-        position: absolute; /* Position the logo absolutely within the container */
-        left: 50%; /* Center the logo horizontally */
-        top: 50%; /* Center the logo vertically */
-        transform: translate(-50%, -50%); /* Center the logo properly */
+        width: 100px;
+        max-height: 100px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     #title-bar h1 {
-        font-size: 20px; /* Adjust the font size as needed */
-        text-shadow: 2px 2px 4px #000; /* Add a shadow to the text for contrast */
-        position: relative; /* Ensure the text respects the container positioning */
+        font-size: 20px;
+        text-shadow: 2px 2px 4px #000;
+        position: relative;
     }
+}
+
+/* Highlight the input box for player search */
+#username-input {
+    background-color: #FFE4B5; /* A light color for the background */
+    border: 1px solid #FFA500; /* An orange border */
+    padding: 5px;
 }
 
 /* Responsive Styles for Slide Over on iPad */
