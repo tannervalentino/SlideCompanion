@@ -61,13 +61,6 @@ footer {
     }
 }
 
-/* Highlight the input box for player search */
-#username-input {
-    background-color: #FFE4B5; /* A light color for the background */
-    border: 1px solid #FFA500; /* An orange border */
-    padding: 5px;
-}
-
 /* Responsive Styles for Slide Over on iPad */
 
 @media screen and (max-width: 1024px) {
