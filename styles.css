@@ -46,8 +46,8 @@ footer {
     }
 
     #title-bar img {
-        width: 20%; /* Limit the logo size to 20% of the viewport width */
-        max-height: 100px;
+        width: 100px; /* Set a fixed width for the logo */
+        max-height: 100px; /* Set a fixed height to maintain aspect ratio */
         position: absolute; /* Position the logo absolutely within the container */
         left: 50%; /* Center the logo horizontally */
         top: 50%; /* Center the logo vertically */
