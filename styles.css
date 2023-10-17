@@ -22,10 +22,4 @@ main {
 
 footer {
     background-color: #8B4513; /* Brown background color */
-    color: #D2B48C; /* Text color (corresponding with the earth theme) */
-    text-align: center;
-    padding: 10px;
-    width: 100vw; /* Snap to full viewport width */
-}
-
-/* Add a new CSS rule to snap the window to the Slide Over tab width */
+    color: #D2B48C; /* Text color
