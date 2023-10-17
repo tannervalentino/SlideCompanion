@@ -29,44 +29,42 @@ footer {
     width: 100vw;
 }
 
-/* Add a new CSS rule to snap the window to the Slide Over tab width */
-@media screen and (max-width: 1024px) {
-    body {
-        width: 100vw;
-        overflow: hidden;
-    }
+/* Add a new CSS rule for the dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
-    #title-bar {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #8B4513;
-        color: #D2B48C;
-        padding: 10px;
-        position: relative;
-    }
+.dropbtn {
+    background-color: #D2B48C;
+    color: #8B4513;
+    border: none;
+    cursor: pointer;
+}
 
-    #title-bar img {
-        width: 100px;
-        max-height: 100px;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-    }
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #8B4513;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
 
-    #title-bar h1 {
-        font-size: 20px;
-        text-shadow: 2px 2px 4px #000;
-        position: relative;
-    }
+.dropdown-content a {
+    color: #D2B48C;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
 
-    /* Updated CSS rule to style the menu button as three lines */
-    #menu-button {
-        width: 30px;
-        height: 3px;
-        background-color: #D2B48C;
-        margin: 5px 0;
-        cursor: pointer;
-    }
+/* Update the hover effect for the dropdown content */
+.dropdown-content a:hover {
+    background-color: #D2B48C;
+    color: #8B4513;
+}
+
+/* Show the dropdown content when the button is clicked */
+.dropdown:hover .dropdown-content {
+    display: block;
 }
