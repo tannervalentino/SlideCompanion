@@ -27,6 +27,20 @@ footer {
     width: 100vw; /* Snap to full viewport width */
 }
 
+/* Add a new CSS rule to snap the window to the Slide Over tab width */
+@media screen and (max-width: 1024px) {
+    body {
+        width: 100vw; /* Snap the window to the Slide Over tab width */
+        overflow: hidden; /* Hide horizontal scrollbar */
+    }
+
+    #title-bar img {
+        width: auto; /* Allow the logo to resize with the window */
+        max-width: 60%; /* Limit the logo size */
+        max-height: 100px;
+    }
+}
+
 /* Responsive Styles for Slide Over on iPad */
 
 @media screen and (max-width: 1024px) {
@@ -50,4 +64,5 @@ footer {
     align-items: center;
     background-color: #8B4513; /* Brown background color */
     color: #D2B48C; /* Text color (corresponding with the earth theme) */
-    padding: 10px
+    padding: 10px;
+}
