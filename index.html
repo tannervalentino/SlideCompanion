@@ -7,7 +7,6 @@
     <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <body style="background-color:#474746;">
     <header>
         <div id="title-bar">
             <img src="runescim.png" alt="SC logo">
@@ -16,11 +15,19 @@
     </header>
 
     <main>
-
+        <div id="search-box">
+            <input type="text" id="username-input" placeholder="Enter OSRS Username">
+            <button id="search-button">Search</button>
+        </div>
+        <div id="results">
+            <!-- Display OSRS skills here -->
+        </div>
     </main>
 
     <footer>
         &copy; 2023 SlideCompanion
     </footer>
+    
+    <script src="app.js"></script> <!-- Include your JavaScript file -->
 </body>
 </html>
