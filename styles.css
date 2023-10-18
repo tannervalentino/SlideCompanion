@@ -9,10 +9,10 @@ body {
 }
 
 header {
-    background-color: #8B4513; /* Brown background color */
-    color: #D2B48C; /* Text color (corresponding with the earth theme) */
+    background-color: #8B4513;
+    color: #D2B48C;
     text-align: center;
-    padding: 5px; /* Adjust padding as needed */
+    padding: 10px;
     width: 100vw;
     margin: 0 auto;
 }
@@ -22,8 +22,8 @@ main {
 }
 
 footer {
-    background-color: #8B4513; /* Brown background color */
-    color: #D2B48C; /* Text color (corresponding with the earth theme) */
+    background-color: #8B4513;
+    color: #D2B48C;
     text-align: center;
     padding: 10px;
     width: 100vw;
@@ -85,26 +85,4 @@ footer {
     font-size: 20px;
     text-shadow: 2px 2px 4px #000;
     position: relative;
-}
-
-/* Adjust the font size and padding for the dropdown button */
-.dropbtn {
-    font-size: 16px; /* Adjust the font size as needed */
-    padding: 10px; /* Adjust the padding as needed */
-}
-
-/* Styling for the quest list in questguides.html */
-#quest-list {
-    list-style-type: none; /* Remove bullet points */
-    margin: 0;
-    padding: 0;
-    font-size: 16px; /* Adjust the font size as needed */
-    text-align: center;
-    color: #D2B48C;
-}
-
-#quest-list li {
-    display: inline;
-    margin: 10px; /* Add spacing between quests */
-    cursor: pointer;
 }
